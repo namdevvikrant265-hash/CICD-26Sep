@@ -17,18 +17,3 @@ variable "public_ips" {
   type    = map(any)
   default = {}
 }
-
-variable "vms" {
-  type    = map(any)
-  default = {}
-}
-
-variable "bastions" {
-  type    = map(any)
-  default = {}
-}
-
-variable "app_gateways" {
-  type    = map(any)
-  default = {}
-}
